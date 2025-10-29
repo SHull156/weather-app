@@ -13,7 +13,7 @@ searchBtn.addEventListener("click", function(){
             resultContainer.innerHTML = `
             <p>Temperature: ${data.main.temp} °C </p>
             <p> Description: ${data.weather[0].description}</p>
-            <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather Icon">
+            <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather Icon" class="weather-icon">
             `;
             console.log(data);
         })
