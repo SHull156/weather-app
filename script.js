@@ -4,7 +4,7 @@ let resultContainer = document.getElementById("weatherResult");
 
 searchBtn.addEventListener("click", function(){
     let city = inputBox.value;
-    let apiKey = "8a7c562feb5f86348243418982710185";
+    let apiKey = "API_KEY";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     
     fetch(apiUrl)
